@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mr. Shoes</title>
+  <!-- Link -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="banner">
+    <header>
+      <a href="" class="lg">Mr. Shoes</a>
+      <div class="toggle"></div>
+    </header>
+    <img src="/assets/sepatu.jpg" alt="" />
+    <div class="content">
+      <h2>Clean your dirty shoes</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias a
+        incidunt neque eaque sed cum doloribus labore libero delectus
+        consectetur.
+      </p>
+    </div>
+  </div>
+  <!-- About -->
+  <div class="about">
+    <div class="contentbox">
+      <h2 class="heading">About Us</h2>
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil a enim
+        sapiente harum laborum eveniet fuga soluta aliquid recusandae
+        cupiditate! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Sit, optio!<br /><br />Lorem ipsum dolor, sit amet consectetur
+        adipisicing elit. Sed veniam laudantium sequi quae facere nesciunt?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
+        commodi iusto quisquam tempore explicabo enim.
+      </p>
+    </div>
+    <div class="imgbox"></div>
+  </div>
+  <!-- Services -->
+  <div class="container">
+    <div class="menu" id="navbar">
+      <a href="" class="serv">Our<span>Services</span></a>
+      <ul>
+        <li><a href="#">Cleaning</a></li>
+        <li><a href="#">Repaint</a></li>
+        <li><a href="#">Repair</a></li>
+      </ul>
+      <span class="menuicons" onclick="menuToggle();"></span>
+    </div>
+    <div class="content-services">
+      <div class="bannertext" id="slideshowText">
+        <div class="active">
+          <h2>Sepatu bersih<br />Enak dipandang</h2>
+          <p>
+            Mr. Shoes melayanin segala macam jenis pencucian sepatu. Mulai
+            dari yang murah kelas mahasiswa sampai dengan premium kelas
+            executive. Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Voluptatum, cum.
+          </p>
+          <a href="">More Info</a>
+        </div>
+        <div>
+          <h2>Ganti warna?<br />Siap</h2>
+          <p>
+            Mr. Shoes melayanin segala macam jenis pencucian sepatu. Mulai
+            dari yang murah kelas mahasiswa sampai dengan premium kelas
+            executive. Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Voluptatum, cum.
+          </p>
+          <a href="">More Info</a>
+        </div>
+        <div>
+          <h2>Sepatu rusak<br />Ganti baru</h2>
+          <p>
+            Mr. Shoes melayanin segala macam jenis pencucian sepatu. Mulai
+            dari yang murah kelas mahasiswa sampai dengan premium kelas
+            executive. Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Voluptatum, cum.
+          </p>
+          <a href="">More Info</a>
+        </div>
+      </div>
+      <div class="bannerimg" id="slideshow">
+        <img src="/assets/sepatu1.jpg" class="active" />
+        <img src="/assets/sepatu2.jpg" />
+        <img src="/assets/sepatu3.jpg" />
+      </div>
+    </div>
+    <div class="icons">
+      <ul class="sci">
+        <li>
+          <a href=""><img src="/assets/twitter.png" alt="twitterlogo" /></a>
+        </li>
+        <li>
+          <a href=""><img src="/assets/twitter.png" alt="twitterlogo" /></a>
+        </li>
+      </ul>
+      <ul class="controls">
+        <li>
+          <a><img src="/assets/left.png" onclick="prevSlide();prevSlideText()" /></a>
+        </li>
+        <li>
+          <a><img src="/assets/right.png" onclick="nextSlide();nextSlideText()" /></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Our Customer -->
+  <div class="wrapper">
+    <h1>Our Customer</h1>
+    <div class="mycust">
+      <div class="customer">
+        <div class="custImg">
+          <img src="/assets/dean.png" alt="Customer_Image" />
+        </div>
+        <h3>Dean Dirga</h3>
+        <p class="role">Pelajar</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat
+          tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum
+          nemo distinctio quam blanditiis dignissimos.
+        </p>
+      </div>
+      <div class="customer">
+        <div class="custImg">
+          <img src="/assets/regita.png" alt="Customer_Image" />
+        </div>
+        <h3>Regita Tamara</h3>
+        <p class="role">Mahasiswa</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat
+          tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum
+          nemo distinctio quam blanditiis dignissimos.
+        </p>
+      </div>
+      <div class="customer">
+        <div class="custImg">
+          <img src="/assets/theo.png" alt="Customer_Image" />
+        </div>
+        <h3>Theodore Joe</h3>
+        <p class="role">Manager Marketing</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat
+          tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum
+          nemo distinctio quam blanditiis dignissimos.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="contact">
+    <h2 class="heading1">Contact Us</h2>
+    <p class="text1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+      voluptates error laboriosam sint consectetur suscipit modi officia saepe
+      quod exercitationem fuga quasi nihil molestias maxime similique, earum
+      adipisci blanditiis quisquam quibusdam cumque eos neque. Veniam
+      inventore impedit doloremque voluptatum minus! Lorem, ipsum dolor sit
+      amet consectetur adipisicing elit. Magnam, modi?
+    </p>
+  </div>
+  <div class="about">
+    <div class="contentbox bg">
+      <div class="form">
+        <div class="inputbox">
+          <input type="text" name="" placeholder="Nama Lengkap" />
+        </div>
+        <div class="inputbox">
+          <input type="text" name="" placeholder="Alamat Email" />
+        </div>
+        <div class="inputbox">
+          <input type="text" name="" placeholder="No. Handphone" />
+        </div>
+        <div class="inputbox">
+          <textarea placeholder="Tuliskan pesanmu disini"></textarea>
+        </div>
+        <div class="inputbox">
+          <input type="submit" name="" value="Kirim" />
+        </div>
+      </div>
+    </div>
+    <div class="imgbox2"></div>
+  </div>
+
+  <footer>
+    <p>Jasa Perawatan Sepatu &#169; 2020, MR. SHOES</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
